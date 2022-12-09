@@ -1,0 +1,16 @@
+.Xbutton {
+    border: none;
+    background-color: white;
+    height: 6px;
+    cursor: pointer;
+}
+
+
+.chk {
+    accent-color: #008594;
+    border-color: red;
+}
+
+* {
+    color: #666666;
+}

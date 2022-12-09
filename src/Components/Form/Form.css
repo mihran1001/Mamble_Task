@@ -1,0 +1,40 @@
+.input-text {
+    margin-top: 0;
+    width: 700px;
+    border: 2px solid #FFCD04;
+    border-radius: 4px;
+    margin: 14px;
+    height: 33px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+}
+
+::placeholder { 
+    color: #DFDFDF;
+    font-size: small;
+}
+  
+
+.onAdd {
+    /* width: 100px; */
+    height: 39px;
+    background: #008594;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0px 25px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.title {    
+    color: #174348;
+    margin-left: -754px;
+    margin-bottom: -13px;
+}
+
+.errorMessage {
+    color: #FF3104;
+}

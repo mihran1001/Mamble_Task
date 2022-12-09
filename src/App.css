@@ -1,0 +1,21 @@
+.App {
+    text-align: center;
+    /* width: 1440px;
+    height: 1034px; */
+    font-family: 'Poppins', sans-serif; 
+}
+
+.emptyListText {
+    margin-top: 90px;
+}
+
+.firstLine {
+    color: #ACACAC;
+    font-size: 24px;
+}
+
+.secondLine {
+    color: #666666;
+    font-size: 36px;
+}
+

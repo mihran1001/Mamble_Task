@@ -1,0 +1,17 @@
+.hideCompleted {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 18px;
+}
+
+input {
+    accent-color: #008594;
+}
+
+.completed {
+    margin-top: 160px;
+}
+
+.completed input{
+    margin-left: 1000px; 
+}
