@@ -1,12 +1,7 @@
 .input-text {
-    margin-top: 0;
-    width: 700px;
     border: 2px solid #FFCD04;
     border-radius: 4px;
-    margin: 14px;
     height: 33px;
-    padding-top: 2px;
-    padding-bottom: 2px;
     padding-left: 12px;
 }
 
@@ -17,7 +12,6 @@
   
 
 .onAdd {
-    /* width: 100px; */
     height: 39px;
     background: #008594;
     color: white;
@@ -31,10 +25,48 @@
 
 .title {    
     color: #174348;
-    margin-left: -754px;
-    margin-bottom: -13px;
+    align-self: start;
 }
 
 .errorMessage {
     color: #FF3104;
+    font-size: 12px;    
+    line-height: 18px;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    margin-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 86px;
+}
+
+
+.inputStyle{
+    margin-right: 24px;
+}
+@media only screen and (max-width: 600px) {
+    .form {
+        flex-direction: column;
+        align-items: flex-end;
+    }    
+    .firstLine {
+        font-size: 17px;;
+    }
+
+    .secondLine {
+        font-size: 19px;
+    }
+
+    .inputStyle{
+        margin-right: initial;
+    }
 }

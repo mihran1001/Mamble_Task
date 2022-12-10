@@ -1,10 +1,37 @@
-.Xbutton {
-    border: none;
-    background-color: white;
-    height: 6px;
-    cursor: pointer;
+.task {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    height: 48px;
+    align-items: center;
 }
 
+.task:last-child {
+    border-bottom: inherit; 
+}
+
+
+.task__item_checked {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: lightgray;
+}
+
+.task__item_nonchecked {
+    
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    color: #666666;
+}
+
+
+.nonchk {
+    accent-color: #008594;
+    border-color: red;
+    
+}
 
 .chk {
     accent-color: #008594;
