@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react"; 
 import "./Form.css";
+import Input from "./Input";
 
 function Form({ onAdd }) {
 
@@ -9,16 +10,11 @@ function Form({ onAdd }) {
     return (
         <form className="form" onSubmit={(e) => {
             e.preventDefault();
-            ((text.length < 54) && (text.length > 0)) && onAdd(text);
-            console.log(text.length);
-            (text.length < 54) && setText("");
+            ((text.length < 55) && (text.length > 0)) && onAdd(text);
+            (text.length < 55) && setText("");
         }}>
-            <div className="title">Task</div>
-            <input value={text} className="input-text" placeholder="Write here" onChange={e => { 
-                setText(e.target.value)
-            }} />   
+            <Input text={text} setText={setText} />
             <button className="onAdd" >Add</button>
-            {text.length >= 54 && <div className="errorMessage">Task content can contain max 54 characters.</div>}
         </form>
     )
 }

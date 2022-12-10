@@ -1,17 +1,22 @@
 .hideCompleted {
     color: #000000;
     font-family: 'Poppins', sans-serif;    
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 6px;
 }
 
 input {
     accent-color: #008594;
+    border-color: #000000;
 }
 
 .completed {
-    margin-top: 160px;
+ display: flex;
+ justify-content: end;
+ margin-bottom: 16px; 
 }
 
-.completed input{
+/* .completed input{
     margin-left: 1000px; 
-}
+} */
