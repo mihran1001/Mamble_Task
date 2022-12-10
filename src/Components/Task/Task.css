@@ -1,19 +1,9 @@
-/* .Xbutton {
-    border: none;
-    background-color: white;
-    height: 6px;
-    cursor: pointer;
-} */
-
 .task {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     height: 48px;
     align-items: center;
-    /* margin: 6px -176px; */
-    /* margin-left: -206px;
-    margin-right: -260px; */
 }
 
 .task:last-child {

@@ -20,6 +20,7 @@
 .actions {
     display: flex;
 }
+
 button {
     border: none;
     font-weight: 600;
