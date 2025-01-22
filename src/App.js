@@ -21,8 +21,10 @@ function App() {
   const setExistData = () => {
     const data = localStorage.getItem('taskList');
 
-    if(data.length) {
-      setState(JSON.parse(data));
+    if(data !== null){
+      if(data.length) {
+        setState(JSON.parse(data));
+      }
     }
   }
 
